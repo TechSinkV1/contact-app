@@ -20,8 +20,8 @@
 }
 .history, .contacts{
     color: red;
-    padding: 0 31px 0 31px;
-    border: 1px solid red;
+    /* padding: 0 31px 0 31px;
+    border: 1px solid red; */
     border-radius: 10px 0 0 0 ;
 }
 .contacts{
