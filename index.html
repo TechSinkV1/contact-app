@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sample App</title>
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <h1>If you are using for the first time. Add at least one contact first</h1>
+    <div class="container">
+        <div class="nav">
+            <div class="history" onclick="history()">
+                <h2>History</h2>
+            </div>
+            <div class="contacts" onclick="contacts()">
+                <h2>Contacts</h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="add-contact" id="add-contact">
+                <i class="fas fa-user-plus"></i>
+            </div>
+            <div class="details" id="details">
+                <div class="detail">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <ul>Please note:
+        <li>I used html5, CSS and Vanilla JS to build this web app.</li>
+        <li>You can add as many contacts as you own. Add more than 8 contacts to see cool scroll bar.</li>
+        <li>Used localstorage as data base. And it's a single page application. </li>
+    </ul>
+    <!-- Local JS -->
+    <script src="app.js"></script>
+</body>
+</html>

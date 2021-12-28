@@ -1,0 +1,93 @@
+.container{
+    width: 300px;
+    height: 500px;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 7px 8px 9px #cfc8bf;
+    margin: auto;
+    margin-top: 20vh;
+    background-color: antiquewhite;
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+    border-radius: 10px 10px 0px 0px;
+    height: 70px;
+    cursor: pointer;
+}
+.history, .contacts{
+    color: red;
+    padding: 0 31px 0 31px;
+    border: 1px solid red;
+    border-radius: 10px 0 0 0 ;
+}
+.contacts{
+    border-radius: 0 10px 0 0 ;
+}
+.history:hover, .contacts:hover{
+    background-color: burlywood;
+    transition-duration: 0.5s;
+}
+.content{
+    border: 1px solid red;
+    border-radius: 0 0 10px 10px;
+    height: 424px;
+    position: relative;
+    overflow: auto;
+}
+.add-contact{
+    background-color: white;
+    border: 1px solid red;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+    border-radius: 50%;
+    position: sticky;
+    top: 83%;
+    left: 5%;
+    cursor: pointer;
+}
+.add-contact i{
+    font-size: 40px;
+    color: red;
+    z-index: 1;
+    position: relative;
+    top: 10px;
+    left: 8px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-top: -55px;
+}
+h3, p{
+    margin: 0px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, red);
+    border-radius: 20px;
+}
+
+.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 30px;
+}
+
+label {
+    padding-right: 5px;
+}
